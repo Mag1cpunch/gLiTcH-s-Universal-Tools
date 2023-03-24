@@ -1,7 +1,6 @@
 import sys
 import random
 import string
-import speech_recognition as sr
 ##Основное
 def main():
     print("--------------------------------")
