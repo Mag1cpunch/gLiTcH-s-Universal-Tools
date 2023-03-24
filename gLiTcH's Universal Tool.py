@@ -51,8 +51,8 @@ def randompass2():
 ##Комманды
 def switch():
     s = "List Of Available Commands:\ncalculator\nrandomnum\nrandompass\nreload\nexit"
-    e = input("Enter Command:")
-    if e == "list":
+    e = input("Enter Command(Write help To See All Available Commands):")
+    if e == "help":
         print(s)
         switch()
     
